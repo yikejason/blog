@@ -1,0 +1,22 @@
+(1)用命令行创建一个新仓库
+create a new repository on the command line    
+
+echo "# blog" >> README.md  //添加一个README文件
+git init //初始化一个git仓库
+git add README.md //把README文件放入到暂存中
+git commit -m "first commit"//提交暂存中的文件
+git remote add origin https://github.com/yikejason/blog.git//添加一个远程仓库建立连接
+git push -u origin master//把本地更新推送到远程分支
+
+git add -A //添加当前文件夹里的所有内容到暂存
+
+(2)用命令行推送一个已经存在的仓库到远程分支上
+push an existing repository from the command line
+
+git remote add origin https://github.com/yikejason/blog.git//添加一个远程仓库建立连接
+git push -u origin master /把本地更新推送到远程分支
+
+(3)克隆远程上已经有的git仓库
+import code from another repository
+You can initialize this repository with code from a Subversion, Mercurial, or TFS project.
+git clone https://github.com/yikejason/blog.git
