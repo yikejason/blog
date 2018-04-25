@@ -9,6 +9,9 @@ git remote add origin https://github.com/yikejason/blog.git//Ìí¼ÓÒ»¸öÔ¶³Ì²Ö¿â½¨Á
 git push -u origin master//°Ñ±¾µØ¸üĞÂÍÆËÍµ½Ô¶³Ì·ÖÖ§
 
 git add -A //Ìí¼Óµ±Ç°ÎÄ¼ş¼ĞÀïµÄËùÓĞÄÚÈİµ½Ôİ´æ
+git add . //Ìí¼Ó±¾µØËùÓĞĞŞ¸Äµ½Ôİ´æ git add path(Ïà¶ÔÂ·¾¶)
+git push origin master //ÍÆËÍ±¾µØĞŞ¸Äµ½·ÖÖ§ÉÏ
+git pull //À­È¡»ï°é´úÂëºÏ²¢
 
 (2)ÓÃÃüÁîĞĞÍÆËÍÒ»¸öÒÑ¾­´æÔÚµÄ²Ö¿âµ½Ô¶³Ì·ÖÖ§ÉÏ
 push an existing repository from the command line
